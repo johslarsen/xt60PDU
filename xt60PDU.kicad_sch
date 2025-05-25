@@ -921,7 +921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "SMD:SolderJumper-2_1812_Bridged_3.2mm"
 			(at 46.99 21.59 0)
 			(effects
 				(font
