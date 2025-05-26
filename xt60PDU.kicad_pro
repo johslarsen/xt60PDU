@@ -565,7 +565,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "out/xt60PDU_v0.1",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
