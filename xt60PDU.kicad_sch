@@ -619,26 +619,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "NOTE: angled footprint have GND on pin 1, vertical ones have VCC on PIN1"
-		(exclude_from_sim no)
-		(at 25.146 32.512 0)
-		(size 39.624 5.588)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "73a43f90-6f9a-4c6c-bb03-79e30c84fb37")
-	)
 	(junction
 		(at 66.04 22.86)
 		(diameter 0)
@@ -866,7 +846,7 @@
 		(uuid "19850365-25b0-4bc2-8dd6-30593de3686e")
 	)
 	(label "VBAT"
-		(at 25.4 25.4 180)
+		(at 25.4 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,7 +1299,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 30.48 27.94 180)
+		(at 20.32 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1327,7 +1307,7 @@
 		(dnp no)
 		(uuid "f2207485-1184-4c94-bcba-b16017c0368a")
 		(property "Reference" "J1"
-			(at 28.956 26.67 0)
+			(at 21.844 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1316,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 29.845 30.48 0)
+			(at 20.955 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1325,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 30.48 27.94 0)
+			(at 20.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 27.94 0)
+			(at 20.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1343,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 30.48 27.94 0)
+			(at 20.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

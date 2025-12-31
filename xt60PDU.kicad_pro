@@ -60,63 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|100000000|52732353|9dfe8bf9-6fc5-498a-a4a3-e899b6e6fc36|fb682170-7c22-4b54-bb84-30240d23b373",
-          ""
-        ],
-        [
-          "silk_edge_clearance|100000000|65750000|9dfe8bf9-6fc5-498a-a4a3-e899b6e6fc36|5b0d56da-f74c-4a5d-95c6-e513f3d35ca4",
-          ""
-        ],
-        [
           "silk_edge_clearance|50000000|50140000|2b1f19f0-269e-46e0-9720-0a4e2161ec9f|3fb5bec9-9323-42c4-9aed-5fb93b819e7c",
           ""
         ],
         [
           "silk_edge_clearance|50000000|65860000|2b1f19f0-269e-46e0-9720-0a4e2161ec9f|8daa13d8-2405-4f6e-a9a0-04c89fe8a3f1",
-          ""
-        ],
-        [
-          "silk_edge_clearance|65950000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|d915b659-69ca-4c08-a527-acf60cbc0d44",
-          ""
-        ],
-        [
-          "silk_edge_clearance|69100000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|b15f65a1-fe39-484e-a817-f1ee5f307cae",
-          ""
-        ],
-        [
-          "silk_edge_clearance|69100000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|c8397726-8214-46eb-93ff-040fbe0aa3db",
-          ""
-        ],
-        [
-          "silk_edge_clearance|75450000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|d9582d3c-4302-443d-90c6-4a209831c8b3",
-          ""
-        ],
-        [
-          "silk_edge_clearance|78600000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|c4037809-a3f7-4ed2-8eec-0d590eb901b2",
-          ""
-        ],
-        [
-          "silk_edge_clearance|78600000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|c7af494d-02c9-4ff4-bb71-6921f29e6f01",
-          ""
-        ],
-        [
-          "silk_edge_clearance|84950000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|2d595bba-cb27-4147-acb2-1310fc2d30f4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|88100000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|0c60e54a-65a2-4ef6-8a66-0ff7ce115203",
-          ""
-        ],
-        [
-          "silk_edge_clearance|88100000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|a4fb215c-2397-41c9-a9c1-b14d0d15cd3c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|94450000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|c4b05259-fb32-4218-9853-71d59ca4d4e7",
-          ""
-        ],
-        [
-          "silk_edge_clearance|97600000|50050000|b6c800e7-f247-41d3-9e3a-76af61a3d694|408c5dda-f43c-4e84-86dd-89effc5181d0",
           ""
         ]
       ],
@@ -519,6 +467,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -565,10 +514,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "out/xt60PDU_v0.1",
+      "plot": "out/xt60PDU_v1.0",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "out/xt60PDU_v1.0/xt60PDU.stl",
       "svg": "",
       "vrml": ""
     },
